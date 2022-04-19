@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&family=Fredericka+the+Great&family=Permanent+Marker&family=Rajdhani:wght@700&family=Sigmar+One&family=Special+Elite&display=swap" rel="stylesheet">
+
+    <title>Valjurai - Variety Gaming and Political DTuber</title>
+
+    <style>
+
+      * {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        outline: 0;
+        font-size: 100%;
+        vertical-align: baseline;
+        background: transparent;
+      } 
+
+      body {
+        background-color: rgb(63, 87, 71);
+      }
+
+      .amatic {
+        font-family: 'Amatic SC', cursive;
+      }
+
+      .fredericka {
+        font-family: 'Fredericka the Great', cursive;
+      }
+
+      .marker {
+        font-family: 'Permanent Marker', cursive;
+      }
+
+      .rajdhani {
+        font-family: 'Rajdhani', sans-serif;
+      }
+
+      .sigmar {
+        font-family: 'Sigmar One', cursive;
+      }
+
+      .elite {
+        font-family: 'Special Elite', cursive;
+      }
+
+      .light {
+        font-weight: 100;
+      }
+
+      .bars {
+        position: fixed;
+        z-index: 0;
+      }
+
+      .splash {
+        position: fixed;
+        z-index: 2;
+        margin: 0px;
+        padding: 0px;
+        height: 100vh;
+        width: 100vw;
+      }
+
+      .splash_bar {
+        margin: 10% 0px 0px 0px;
+        height: 12vh;
+        padding: 2px;
+        color: rgba(255,255,255,0.8);
+        background-color: rgba(255, 255, 255, 0.2);
+      }
+
+      .splash_bar h1 {
+        font-size: 21vh;
+        margin: -0.41em 0em -0.25em 0.2em;
+      }
+
+      .splash_bar h2 {
+        height: max-content;
+        margin: 0.5em 3em;
+        font-size: 24px;
+        color: rgba(254, 152, 0, 0.8)
+      }
+
+      .menu {
+        margin: 2.25em 6.5em;
+        line-height: 1.5em;
+        font-size: larger;
+      }
+
+      .menu_item {
+        color:azure;
+      }
+
+      .menu_item span {
+        color:rgba(0, 0, 0, 0.67)
+      }
+
+      .bevel {
+        text-shadow: 1px 1px rgba(0,0,0,0.2);
+      }
+
+    </style>
+    <script type="text/javascript" src="valjurai.bars.js" async></script>
+  </head>
+  <body>
+    <nav class="splash">
+      <nav class="splash_bar bevel">
+        <h1 class="amatic">Valjurai</h1>
+        <h2 class="elite">- Variety Gaming and Political DTuber</h2>
+      </nav>
+      <ul class="menu elite">
+        <li class="menu_item">
+          .hack//G.U. Vol 1 <span>:: Tue @ 1930-2130 Eastern</span>
+        </li>
+        <li class="menu_item">
+          Empyrion:RE <span>:: Weds @ 1200-1600 Eastern</span>
+        </li>
+        <li class="menu_item">
+          .hack//G.U. Vol 1 <span>:: Thur @ 1930-2130 Eastern</span>
+        </li>
+        <li class="menu_item">
+          .Dwarf Fortress <span>:: Sat @ 1130-1330 Eastern</span>
+        </li>
+      </ul>
+    </nav>
+    <canvas class="bars"></canvas>
+  </body>
+</html>
